@@ -1,0 +1,48 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2{
+	color: red;
+}
+
+div.img {
+    margin: 0px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 50px;
+	background-color: #dddddd;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+/* gives the table a border */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #bbb;
+	font-size: 70%;
+}
+/*adds a border the top of each row and determins how much space is between the rows.  */
+td {
+    border-top: 1px solid #ddd;
+    padding: 4px 8px;
+}
+
+/*add a different colour to the even rows in the table*/
+tr:nth-child(even) {
+    background: #e9e9e9;
+}
+
+/*  */
+footer {
+	text-align: center;
+}
+
