@@ -5,6 +5,7 @@
 Beers
 </title>
 <link rel="stylesheet" type="text/css" href="css.css">
+<script src="searchbox.js"></script>
 
 </head>
 <body>
@@ -46,7 +47,9 @@ Beers
 
 <br><br><br><br>
 
- <table>
+<input type="text" id="searchtype" onkeyup="myFunction()" placeholder="Search by type..">
+
+ <table id='nametable'>
   <tr>
     <td><b>Name</b></td>
     <td><b>Strength</b></td>
